@@ -71,8 +71,9 @@ This will be done by adding another attribute in the story object that has been 
  d)Another feature that will be added to the story object will be an audio button. This button when clicked will read the text of the story along with the author’s name.
 This will be done using the Window.speechSysnthesis (entry point for Web Speech API). Speak function of this object will be used.
 	
-	e) Judging the genre of story 
-		We will classify the stories in categories and if some other user is interested in stories of a particular genre, he/she can select the genre from a drop-down menu.
+e) Judging the genre of story 
+
+We will classify the stories in categories and if some other user is interested in stories of a particular genre, he/she can select the genre from a drop-down menu.
 This will be done using a suitable API which judges the intent of the sentence provided to it as input.
 
 f) UI improvements will be done.  
