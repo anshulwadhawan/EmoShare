@@ -35,9 +35,9 @@ This button is used to redirect back to the Mood page from the My Posts page.
 
 3.Stories 
 
-	 ![stories](https://user-images.githubusercontent.com/25061477/31582033-9fc492b4-b196-11e7-8f5d-6ce8e847aac3.png)
+![stories](https://user-images.githubusercontent.com/25061477/31582033-9fc492b4-b196-11e7-8f5d-6ce8e847aac3.png)
 	
-	This page consists of three different sections:
+This page consists of three different sections:
 a)	Read stories
 This part consists of the relevant stories for the user according to his level of happiness. Suppose the user is sad (he/she had entered a value between -50 to 0),then he/she is shown only happy stories(having happiness level >0 and <50) so as to make his mood better.
 
@@ -68,8 +68,9 @@ A drop-down menu will be created for attaching the above elements in any post. A
 c)	Along with the like activity on stories (which has been implemented), a comments section will also be provided.
 This will be done by adding another attribute in the story object that has been created on the server. 
 
-     d)Another feature that will be added to the story object will be an audio button. This button when clicked will read the text of the story along with the author’s name.
+ d)Another feature that will be added to the story object will be an audio button. This button when clicked will read the text of the story along with the author’s name.
 This will be done using the Window.speechSysnthesis (entry point for Web Speech API). Speak function of this object will be used.
+	
 	e) Judging the genre of story 
 		We will classify the stories in categories and if some other user is interested in stories of a particular genre, he/she can select the genre from a drop-down menu.
 This will be done using a suitable API which judges the intent of the sentence provided to it as input.
