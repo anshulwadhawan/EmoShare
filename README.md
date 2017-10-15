@@ -15,11 +15,14 @@ The flow depicting all the stages of the project have been explained in detail a
 
  ![page1](https://user-images.githubusercontent.com/25061477/31582030-9ead4ba0-b196-11e7-887f-ac50012b87bd.png)
 The project begins with a login/sign-up page. The user has to either directly log in to one of his registered accounts or create a new account to be a part of the community.
+
 2.	Mood
  ![mood](https://user-images.githubusercontent.com/25061477/31582028-9e365f04-b196-11e7-8056-e7334841b4d5.png)
 	Once a user logs in to any of his registered accounts, he lands at a page that asks him his current mood. The user is given an option to select any value between -50 to 50 according to his level of happiness where 50 denotes the level of extreme happiness and -50 denotes the level of extreme sadness.
 After selecting a level, the user presses the Go button to redirect to the Stories page.
 Other than the happiness meter, the page has a header consisting of three parts-
+
+
 a)	Profile and Logout embedded in a drop down menu
  ![profile](https://user-images.githubusercontent.com/25061477/31582031-9ed8a6e2-b196-11e7-85f5-fe900be78800.png)
 The Profile button redirects the user to a page where the basic details of the user(which were asked during registration) are shown.
@@ -27,9 +30,11 @@ The Profile button redirects the user to a page where the basic details of the u
 ![logout](https://user-images.githubusercontent.com/25061477/31582027-9dbf2772-b196-11e7-914d-2bac45a45187.png)
  
 The logout button logs out the user and redirects to a page where his overall session progress is shown-about the level of happiness he had started and the level of happiness at which he ends the session, thus showing him the total progress he has made during the session, along with a “SEE YOU SOON” conclusive note.
+
 b)	My Posts
  ![myposts](https://user-images.githubusercontent.com/25061477/31582029-9e83de64-b196-11e7-9bb4-169bfd769a3c.png)
 On clicking the My Posts button of the header, the user is redirected to a page which shows all of his recent posts. Each post carries the author’s name, story text, happiness level and the date of post.
+
 c)	Mood 
 This button is used to redirect back to the Mood page from the My Posts page.
 
@@ -38,6 +43,7 @@ This button is used to redirect back to the Mood page from the My Posts page.
 ![stories](https://user-images.githubusercontent.com/25061477/31582033-9fc492b4-b196-11e7-8f5d-6ce8e847aac3.png)
 	
 This page consists of three different sections:
+
 a)	Read stories
 This part consists of the relevant stories for the user according to his level of happiness. Suppose the user is sad (he/she had entered a value between -50 to 0),then he/she is shown only happy stories(having happiness level >0 and <50) so as to make his mood better.
 
