@@ -1,0 +1,26 @@
+<% layout('layout') %>
+
+<div class="jumbotron" id="navbar-gap">
+    <div class="container">
+        <h1> EmoShare</h1>
+        <p>Share your stories in a new way.</p>
+        <%if(!user){%>
+        <p><a class="btn btn-primary btn-lg" href="/signup" role="button">Signup &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" href="/login" role="button">Login &raquo;</a></p>
+        <%}%>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Find Stories</h3>
+        </div>
+        <div class="col-md-4">
+            <h3>Mood Meter</h3>
+        </div>
+        <div class="col-md-4">
+            <h3>Read Good</h3>
+        </div>
+    </div>
+</div>
